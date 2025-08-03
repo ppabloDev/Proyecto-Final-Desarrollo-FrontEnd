@@ -45,12 +45,11 @@ article {
 }
 
 .instrucciones p {
-    font-size: 1.2rem;
-    font-weight: bold;
+    font-size: 1.3rem;
 }
 
 article .explication {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: normal;
     display: flex;
     align-items: center;
