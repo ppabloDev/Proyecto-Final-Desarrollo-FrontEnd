@@ -8,7 +8,7 @@ const Index = () => {
     return (
         <div>
             <div className={"index"}>
-                <img className="index_image" src="/public/Logo.png" alt="My Own Wordle" />
+                <img className="index_image" src="/static/images/logo.png" alt="My Own Wordle" />
                 <button className="index_button" onClick={() => navigate("/game")}>Inicio</button>
                 <button className="index_button">Diccionario</button>
                 <button className="index_button">Instrucciones</button>
