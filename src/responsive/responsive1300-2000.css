@@ -1,0 +1,395 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css");
+@media (min-width: 1300px) {
+
+.instrucciones {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px 60px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 90vh;
+    width: 40vw;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    gap: 10px;
+    top: 5vh;
+    left: 30vw;
+}
+
+.tile_example {
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.exampleSection {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+article {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.instrucciones p {
+    font-size: 1.3rem;
+}
+
+article .explication {
+    font-size: 1.3rem;
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    height: 10%;
+    width: 90%;
+}
+
+.cross {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 30px;
+}
+
+.cross:hover {
+    cursor: pointer;
+    color: red;
+    transition: color 0.3s ease;
+    transform: scale(1.1);
+}
+
+.cross:active {
+    color: darkred;
+    transform: scale(1);
+}
+
+
+* {
+    font-family: josefin sans, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.index_image {
+    width: 500px;
+    height: auto;
+}
+
+.index {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    gap: 20px;
+    background-color: #b4b4b4;
+}
+
+.index_button {
+    width: 200px;
+    height: 50px;
+    background-color: #858585;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.index_button:hover {
+    background-color: #6c6c6c;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.05);
+}
+
+.index_button:active {
+    background-color: #5a5a5a;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+}
+
+.promo {
+    display: flex;
+    position: fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.gameScreen {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    background-color: #e7e7e7;
+    border: 1px solid #ccc;
+    border-radius: 50px;
+    height: 95vh;
+    width: 50vw;
+    position: fixed;
+    transform: scale(0.8);
+    top: 2.5vh;
+    left: 25vw;
+}
+
+.gameScreen h1 {
+    font-size: 2.5rem;
+    box-shadow: 18px 32px 180px -88px rgba(0,0,0,0.73);
+    -webkit-box-shadow: 18px 32px 180px -88px rgba(0,0,0,0.73);
+    -moz-box-shadow: 18px 32px 180px -88px rgba(0,0,0,0.73);
+    color: #333;
+    margin: 20px 0 20px 0;
+}
+
+.letter_box {
+    background-color: darkgrey;
+    border-radius: 10px;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+
+.gameBoard {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.tilesSection {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.keyboardButton {
+    width: 50px;
+    height: 50px;
+    background-color: #d3d3d3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 24px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.keyboardButton:hover {
+    background-color: #c0c0c0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    transform: scale(1.05);
+}
+
+.keyboardButton:active {
+    background-color: #a9a9a9;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transform: scale(1);
+}
+
+.keyboard {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.keyboardRow {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+
+.cross {
+    position: fixed;
+    top: 20px;
+    left: 30px;
+    font-size: 30px;
+}
+
+.cross:hover {
+    cursor: pointer;
+    color: red;
+    transition: color 0.3s ease;
+    transform: scale(1.1);
+}
+
+.cross:active {
+    color: darkred;
+    transform: scale(1);
+}
+
+.PopUp {
+    position: fixed;
+    top: 5vh;
+    left: 30vw;
+    width: 40vw;
+    height: 20vh;
+    z-index: 1000;
+    color: white;
+    font-size: 1.3rem;
+    background-color: rgba(95, 94, 94, 0.973);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.significado {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.significado:hover {
+    color: #82aecc;
+
+}
+
+@keyframes popIn {
+  0% { transform: scale(0); opacity: 0; }
+  80% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(1.1); opacity: 1; }
+}
+
+@keyframes popOut {
+  0% { transform: scale(1.1); opacity: 1; }
+  100% { transform: scale(0); opacity: 0; }
+}
+
+.diccionario {
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    height: 90vh;
+    width: 50vw;
+    align-items: center;
+    position: fixed;
+    top: 5vh;
+    left: 25vw;
+}
+
+.diccionario h1 {
+    margin-bottom: 1.3rem;
+}
+
+.diccionario_content {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.diccionario_content p {
+    width: 11rem;
+}
+
+.diccionario_content div {
+    width: 13rem;
+}
+
+.diccionario_words {
+    display: flex;
+    background-color: #ccc;
+    flex-direction: row;
+    flex-wrap: wrap;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-top: 1.3rem;
+    border-radius: 10px;
+    height: 70vh;
+    width: 100%;
+    padding: 10px;
+    box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 2px 4px 16px 0px rgba(0,0,0,0.75) inset;
+}
+
+.diccionario_words span {
+    background-color: #fff;
+    border-radius: 5px;
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+    margin: 0.2rem;
+    font-size: 1.2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.cross {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+    font-size: 30px;
+}
+
+.cross:hover {
+    cursor: pointer;
+    color: red;
+    transition: color 0.3s ease;
+    transform: scale(1.1);
+}
+
+.cross:active {
+    color: darkred;
+    transform: scale(1);
+}
+
+.loading {
+    display: flex;
+    justify-content: center;
+    background-color: #e2e0e0;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    font-size: 1.5rem;
+    z-index: 9999;
+    top: 37.5vh;
+    left: 32.5vw;
+    height: 25vh;
+    width: 35vw;
+}
+}

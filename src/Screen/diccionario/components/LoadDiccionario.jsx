@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Index from "../../index/index.jsx";
 import Diccionario from "../Diccionario.jsx";
-import "../diccionario.css";
 const LoadDiccionario = ({ }) => {
     const [isLoaded, setIsLoaded] = React.useState(false);
 

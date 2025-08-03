@@ -1,5 +1,4 @@
 import React, { useState, useEffect } from "react";
-import "./PopUp.css";
 
 const PopUpWin = ({ tryNumber, palabra }) => {
     const [popAnimation, setPopAnimation] = useState(true);

@@ -1,5 +1,4 @@
 import react from "react";
-import "./instrucciones.css";
 import Index from "../index";
 import { useNavigate } from "react-router-dom";
 

@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import "./game.css";
 import { todasLasPalabras } from "../../ArrayOfWordle";
 import { useNavigate } from "react-router-dom";
 import Index from "../index";
@@ -11,6 +10,7 @@ const Game = ({ }) => {
 
     const [isMounted, setIsMounted] = React.useState(false);
     const [palabra, setPalabra] = React.useState("");
+
     useEffect(() => {
         setPalabra(
             todasLasPalabras[Math.floor(Math.random() * todasLasPalabras.length)]
@@ -21,7 +21,8 @@ const Game = ({ }) => {
 
         return () => clearTimeout(timer);
     }, []);
-    console.log(palabra);
+
+    console.log("Palabra seleccionada:", palabra);
     const [guess1, setguess1] = React.useState(["", "", "", "", ""]);
 
     const [guess2, setguess2] = React.useState(["", "", "", "", ""]);

@@ -1,7 +1,5 @@
 import React, { useEffect, useState, Suspense, lazy } from "react";
 import { useNavigate } from "react-router-dom";
-import "./diccionario.css"; 
-import Index from "../index/index.jsx";
 import { todasLasPalabras } from "../../ArrayOfWordle.jsx";
 
 const Diccionario = () => {
@@ -42,7 +40,7 @@ const Diccionario = () => {
                 <div className="diccionario_content">
                     <p>Para mas informacion, usa la barra de busqueda</p>
                     <div>
-                        <span>Busqueda</span>
+                        <span className="diccionario_span">Busqueda</span>
                         <hr />
                         <input
                             maxLength={5}
@@ -51,7 +49,7 @@ const Diccionario = () => {
                             type="text"
                             placeholder="Tu palabra favorita..."
                         />
-                        <div>
+                        <div className="diccionario_info">
                             <i className="bi bi-info-circle-fill"></i>
                             <span> ¿No sabes que escribir? ¡Pon las letras que quieras!</span>
                         </div>
