@@ -13,7 +13,7 @@ const Index = () => {
             </div>
 
             <div>
-                <span className="promo">Desing by <a style={{ marginLeft: "5px" }} href="https://www.instagram.com/ppablo.dev/"> @ppablo.dev</a></span>
+                <span className="promo">Desing by <a style={{ marginLeft: "5px" }} href="https://github.com/ppabloDev"> @ppablo.dev</a></span>
             </div>
         </div>
     );
